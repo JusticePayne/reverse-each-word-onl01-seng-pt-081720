@@ -6,3 +6,5 @@ def reverse_each_word
   end
   newarray.join(" ")
 end
+
+reverse_each_word
