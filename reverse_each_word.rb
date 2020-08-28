@@ -8,3 +8,5 @@ def reverse_each_word(string)
 end
 
 reverse_each_word
+binding.pry
+def reverse_each_word_with_each(string)
