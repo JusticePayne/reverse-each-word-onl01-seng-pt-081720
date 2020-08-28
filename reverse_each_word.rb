@@ -1,8 +1,8 @@
 def reverse_each_word(string)
-  array = String.split(" ")
+  array = string.split(" ")
   newarray = []
-  array.collect do |string|
-    newarray << String.reverse
+  array.collect do|string|
+    newarray << string.reverse
   end
   newarray.join(" ")
 end
